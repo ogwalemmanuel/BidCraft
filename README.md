@@ -2,11 +2,6 @@
 
 > **BidCraft** is a high-performance, full-stack online auction platform designed for secure, real-time bidding and seamless marketplace management.
 
-[![License: MIT](https://shields.io)](https://opensource.org)
-[![GitHub Stars](https://shields.io)](https://github.com)
-
----
-
 ## Features
 
 - **Live Real-Time Bidding:** Instant bid updates across all connected clients without page refreshes using [WebSockets / Socket.io / SSE].
@@ -16,16 +11,12 @@
 - **Bidding History & Analytics:** Comprehensive logging of all past bids, trends, and user activity.
 - **Automated Notifications:** Email or in-app alerts when a user is outbid or wins an auction.
 
----
-
 ## Tech Stack
 
 - **Frontend:** [React.js / Next.js / Vue.js] & [Tailwind CSS / Bootstrap]
 - **Backend:** [Node.js / Express / Python Django / Java Spring Boot]
 - **Database:** [MongoDB / PostgreSQL / MySQL]
 - **Real-Time Engine:** [Socket.io / WebSockets / Redis Pub-Sub]
-
----
 
 ## Architecture Overview
 
@@ -37,7 +28,6 @@ BidCraft utilizes an event-driven architecture to ensure that bid actions are pr
       └───( Live Bid Events via WebSockets )────────┘
 ```
 
----
 
 ## Getting Started
 
